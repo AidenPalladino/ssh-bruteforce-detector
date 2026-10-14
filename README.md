@@ -34,14 +34,9 @@ No extra libraries are needed. It only uses built-in Python.
 
 ## Results
 
-![Script output](screenshot.png)
+<img width="374" height="115" alt="image" src="https://github.com/user-attachments/assets/50fac538-e712-4cf7-8745-442e35131855" />
 
-```
-Suspicious IPs:
-203.0.113.200 - 12 failed logins
-203.0.113.45 - 60 failed logins
-198.51.100.77 - 25 failed logins
-```
+
 
 What the results show:
 
