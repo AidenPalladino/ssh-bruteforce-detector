@@ -32,6 +32,9 @@ python simple_analyzer.py
 
 No extra libraries are needed. It only uses built-in Python.
 
+
+See the full script here: [simple_analyzer.py](simple_analyzer.py)
+
 ## Results
 
 <img width="374" height="115" alt="image" src="https://github.com/user-attachments/assets/50fac538-e712-4cf7-8745-442e35131855" />
