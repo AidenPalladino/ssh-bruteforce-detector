@@ -32,6 +32,10 @@ I ran it against `sample_auth.log`, a generated log in the real format. The IPs 
 - `198.51.100.77`: 25 failures on `devops`, then a successful login. This is the one that matters most, since it probably guessed the password. I found that by reading the log, not from the script.
 - `203.0.113.200`: 12 failures spread over a few hours. It got flagged, but only because the script never looks at time.
 
+## 5. Test it against a real attack
+
+I also ran a Hydra brute-force against my own machine and pointed the script at the real logs. It caught all 15 attempts. Full writeup: [attack-and-detect](attack-and-detect/README.md).
+
 ## Limitations
 
 - **No time window.** 10 failures in a minute and 10 failures in a month look the same.
